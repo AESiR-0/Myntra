@@ -7,12 +7,34 @@
 }
 
 .navbar {
-    margin-top: 5px;
+    display: flex;
+    margin-top: 6px;
+    height: 60px;
 }
 
 .nav-item {
     margin-left: 35px;
     transform: scale(1.1);
+}
+
+.Men:hover {
+    border-bottom: 3px solid blue;
+}
+
+.Women:hover {
+    border-bottom: 3px solid pink;
+}
+
+.Kids:hover {
+    border-bottom: 3px solid rgb(197, 197, 6);
+}
+
+.Home:hover {
+    border-bottom: 3px solid red;
+}
+
+.Studio:hover {
+    border-bottom: 3px solid blanchedalmond;
 }
 
 #search {
