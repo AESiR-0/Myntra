@@ -6,10 +6,19 @@
     margin-left: 30px;
 }
 
+.container-fluid {
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 10;
+    height: 70px;
+}
+
 .navbar {
     display: flex;
     margin-top: 6px;
-    height: 60px;
+    height: 100px;
 }
 
 .nav-item {
@@ -18,23 +27,23 @@
 }
 
 .Men:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3.5px solid blue;
 }
 
 .Women:hover {
-    border-bottom: 3px solid pink;
+    border-bottom: 3.5px solid pink;
 }
 
 .Kids:hover {
-    border-bottom: 3px solid rgb(197, 197, 6);
+    border-bottom: 3.5px solid rgb(197, 197, 6);
 }
 
 .Home:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3.5px solid red;
 }
 
 .Studio:hover {
-    border-bottom: 3px solid blanchedalmond;
+    border-bottom: 3.5px solid rgb(248, 149, 0);
 }
 
 #search {
@@ -49,8 +58,42 @@
     height: 30px;
 }
 
+.rhs {
+    margin-top: 10px;
+}
+
+.user:hover {
+    border-bottom: 3.5px solid rgb(4, 105, 105);
+}
+
 .search-icon {
     color: rgb(91, 91, 91);
     margin-top: 7px;
     margin-right: 10px
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.idk {
+    transform: scale(0.95);
+    overflow: hidden;
+}
+
+.alaye {
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.text {
+    transform: scale(0.7);
+}
+
+.right-margin {
+    overflow: hidden;
+    position: relative;
+    right: 100px;
 }
