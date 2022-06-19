@@ -88,12 +88,29 @@
     overflow: hidden;
 }
 
+.scale {
+    position: relative;
+    transform: scale(0.9);
+    overflow: hidden;
+}
+
+.left-margin {
+    margin-left: 40px;
+}
+
 .text {
-    transform: scale(0.7);
+    transform: scale(0.87);
+    overflow: hidden;
 }
 
 .right-margin {
     overflow: hidden;
     position: relative;
-    right: 100px;
+    right: 10px;
+}
+
+.footer {
+    color: white;
+    margin: 0px 100px;
+    padding: 0px 100px;
 }
